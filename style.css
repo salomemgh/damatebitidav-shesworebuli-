@@ -5,7 +5,7 @@ body{
     background-color: rgba(232,239,252,1)
 }
 .container{
-    margin: 70px auto;
+    margin: 70px auto 0px 0px;
     text-align: center;
 }
 img{
@@ -16,9 +16,8 @@ img{
 .container0{
     width: 252px;
     height: 240px;
-    margin: 0px auto;
-    text-align: center;
     background-color: floralwhite;
+    margin: 0px auto;
     border-radius: 5px 5px 5px 5px;
 }
 .container1{
@@ -52,9 +51,11 @@ img{
     width: 20px;
     height: 20px;
     border-radius: 200px;
-    background-color: #ff2ba3;
     float: right;
-    margin-top: 15px;
+    background-color: #ff2ba3;
+    margin-top: 18px;
+    line-height: 20px;
+    padding-left: 2px;
 
 }
 
@@ -88,7 +89,9 @@ img{
     background-color: #9013FE;
     border-radius: 200px;
     float: right;
-    margin-top: 15px;
+    margin-top: 17px;
+    line-height: 15px;
+    padding-left: 4px;
 }
 
 .span4{
@@ -118,8 +121,9 @@ img{
     height: 20px;
     border-radius: 200px;
     background-color: #00d0e6;
-    margin-top: 20px;
     float: right;
+    line-height: 20px;
+    margin-top: 17px;
 }
 
 .span6{
